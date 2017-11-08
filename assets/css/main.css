@@ -1,0 +1,33 @@
+body {
+    width: 80%;
+    margin:0 auto;
+    margin-top: 5%;
+    font-family: sans-serif;
+    font-size: 22px;
+}
+
+header{
+    line-height: 10px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+#prev-meetup{
+    margin: 40px auto;
+}
+
+#prev-meetup p {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+@media screen and (max-width:760px) {
+    body{
+        font-size: 18px;
+    }
+    header{
+        line-height: 30px;
+    }
+}
