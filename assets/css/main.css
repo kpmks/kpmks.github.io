@@ -8,7 +8,17 @@ body {
 
 header{
     line-height: 10px;
+    display: -webkit-flex; /* Safari */
+    -webkit-align-items: center; /* Safari 7.0+ */
+    display: flex;
+    align-items: center;
 }
+
+header img{
+    display: block;
+    margin-right: 5%;
+}
+
 
 h1{
     font-size: 40px;
@@ -23,11 +33,21 @@ h1{
     margin-top: 10px;
 }
 
+li{
+    margin-bottom: 10px;
+}
+
+time{
+    color: rgb(92, 94, 93);
+    font-size: 1.2rem;
+}
+
 @media screen and (max-width:760px) {
     body{
         font-size: 18px;
     }
     header{
         line-height: 30px;
+        display: block;
     }
 }
